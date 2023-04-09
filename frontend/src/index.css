@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Thanks to https://stackoverflow.com/a/8311443 */
+.custom-grid {
+  background-size: auto 3rem;
+  background-image: linear-gradient(
+      0deg,
+      transparent 79px,
+      #484848 79px,
+      #484848 81px,
+      transparent 81px
+    ),
+    linear-gradient(#484848 0.05em, transparent 0.05em);
+}

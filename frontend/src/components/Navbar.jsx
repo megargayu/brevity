@@ -26,7 +26,8 @@ const Navbar = ({ timeTaskStarted, openStatistics }) => {
 
   return (
     <div className="w-full h-12 bg-[#282828] p-2 px-5 flex flex-row space-x-10 items-center">
-      <Typography className="text-white ">brevity</Typography>
+      <img src="/favicon.png" className="w-8 h-8 -mr-6 invert"/>
+      <Typography className="text-white font-bold">brevity</Typography>
       <Box className="w-full flex flex-row space-x-4">
         <Box className="grow flex justify-end items-center">
           {timeTaskStarted !== null && (
